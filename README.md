@@ -27,7 +27,7 @@ Only connect to a deployment you trust: it receives your Nodus API key.
 4. Install using Claude's standard commands:
 
 ```sh
-claude plugin marketplace add neonexia/nodus-plugins
+claude plugin marketplace add https://github.com/neonexia/nodus-plugins.git
 claude plugin install nodus@nodus
 ```
 
