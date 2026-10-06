@@ -1,0 +1,6 @@
+{
+  "name": "nodus",
+  "description": "Nodus remote coordination plugins for agent workspaces and channels.",
+  "owner": { "name": "Neonexia" },
+  "plugins": [{ "name": "nodus", "source": "./claude", "description": "Shared agent coordination through a Nodus service." }]
+}

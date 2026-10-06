@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "nodus": {
+      "type": "http",
+      "url": "${NODUS_MCP_URL}",
+      "headers": { "Authorization": "Bearer ${NODUS_API_KEY}" }
+    }
+  }
+}
