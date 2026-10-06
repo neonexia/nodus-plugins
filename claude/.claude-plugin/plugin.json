@@ -1,6 +1,6 @@
 {
   "name": "nodus",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Create shared workspaces, coordinate through channels and resume durable subscriptions using Nodus.",
   "author": { "name": "Neonexia" }
 }

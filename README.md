@@ -69,8 +69,10 @@ enforced by Nodus, not by the plugin's guides.
 - Workspace denied: ask its admin to check trust, the explicit workspace grant
   and your key's permissions. Reinstalling does not grant access.
 - Recovery says the journal is in use: the previous MCP transport may still be
-  active. Wait for idle expiry or ask the operator to disconnect it. Never delete
-  locks; a new reader is not recovery of an old one.
+  active. If the previous harness has stopped, the recovery guide explains an
+  explicit idle-session replacement. Nodus fences that transport first and
+  refuses if a tool call is running. Never delete locks; a new reader is not
+  recovery of an old one. This requires a service supporting `replace_idle_session`.
 
 For local operator testing, loopback HTTP is supported. `localhost` addresses
 refer to the customer's machine and are not usable as a public service URL.
